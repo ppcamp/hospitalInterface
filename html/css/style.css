@@ -1,0 +1,35 @@
+hr, button {
+    background-color: #30AEA2;
+}
+body, .btn-link {
+    color: #30AEA2;
+}
+.btn-link:hover {
+    color: #FFCE00;
+}
+button {
+    color: #EBEBEB;
+}
+.btn, input[type="text"], input[type="password"], .selectBorder, .card, .alert{
+    border-radius: 3rem;
+}
+button:hover {
+    background-color: #FFCE00
+}
+input[type="text"], textarea, input[type="password"], .card {
+    background: #EBEBEB;
+    border: none;
+}
+input[type="text"]:focus, .textControl:focus, textarea:focus, input[type="password"]:focus,.uneditable-input:focus {   
+  border-color: rgba(255, 205, 0, 1);
+  box-shadow: 0 1px 1px rgba(255, 205, 0, 0.075) inset, 0 0 8px rgba(255, 205, 0, 1);
+  outline: 0 none;
+}
+.container {
+    min-width: 400px;
+}
+.textControl {
+    background: #EBEBEB;
+    border: none;
+    border-radius: 1.5rem;
+}
